@@ -1,0 +1,29 @@
+.navbar{
+  padding: 20px;
+  background-color: rgb(233,224,222);
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.card{
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  /* margin: 0 -5px; */
+  display: flex;
+  margin:auto 10px;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: auto 10px;
+}
